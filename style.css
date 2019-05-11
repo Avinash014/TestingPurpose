@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  position: relative;
+  margin:0;
+  padding:0;
+  max-width: 100%;
+  
+}
+
+body {
+  position: relative; 
+  display:block;
+  background-image:url("./picture/background/cesar-couto-420986-unsplash.jpg");
+  background-attachment: fixed;
+  background-size:cover;
+  /* min-height: 1000px;  */
+  font-family: Arial, Helvetica, sans-serif;
+  height:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main{
+    min-height:100vh;
+}
+.bg{
+    color:white;
+    background-image: url(picture/background/train-olivo-1137045-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:100vh; 
+}
+.card-deck{
+    margin:auto 0 ;
+}
+.banner .card {
+    /* max-height:200px; */
+    /* margin:auto 50px; */
+    margin: auto auto;
+    max-width:300px ;
+    
+} 
+.scrollable .card:first-child{
+    margin-left:0;
+}
+.scrollable .card:last-child{
+    margin-right:0;
+}
+
+.text-white{
+    color:white ;
+
+}
+.scrollable{
+    overflow-x:auto;
+}
+.banner{
+    padding: 50px 0;
+    background-color:#F5F5F5;
+}
+.banner:nth-child(even){
+    background-color: #DCDCDC;
+}
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+.bg-wall{
+    background-image: url(picture/background/laura-skinner-273192-unsplash1.jpg);
+    height:400px;
+}
+.comment img{
+    width:300px;
+    border:1px solid black;
+    -webkit-transition: width 1s; /* Safari*/
+    transition: width 1s; 
+}
+.comment img:hover{
+    width:400px;
+}
+.mybutton{
+    position: relative;
+    width:200px;
+    max-width:50%;
+    -webkit-transition: width 0.5s; /* Safari*/
+    transition: width 0.5s; 
+    
+}
+.wrapper{
+    padding:1vw;
+}
+.mybutton:hover{
+    
+    filter:drop-shadow(8px 8px 10px gray);
+
+}
+.row{
+    margin-left:0 ;
+    margin-right:0 ;
+}
+.welcome{
+    font-size:calc(5px + 3vw);
+
+}
+.banner-info-text{
+    /* display:border-box; */
+    /* max-width: 500px; */
+    border-bottom:1px solid blue ;
+}
+.nav-link{
+    color:blue;
+}
+.nav-link:hover,.fa:hover{
+    color:red ;
+}
+
+/* .mybutton:hover{
+    width:250px;
+} */
+
+ h1{
+    font-size: 4.5vmax;
+  }
+h2{
+    font-size: 3vmax;
+  }
+  h3{
+      font-size: calc(16px + 2vmin) ;
+
+  }
+ 
